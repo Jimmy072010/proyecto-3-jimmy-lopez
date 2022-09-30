@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id="[;jZSDS%MY76tiF|0p~]" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="controls_if" id="sC^4)(oH3[hsk@zh.s;@"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Y=?JlNj1X3$A/UO0igI/"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="p^urzIO+d[gy4wnG4bmZ"><value name="min"><shadow type="math_number" id="iUI$OFB*{NjA!S`a8I$N"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="t[)w$bbBXz+v5{b8k3#-"><field name="NUM">6</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="AQZ[QQ5De6k=^N8HPt!n"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="^I+F4Oz?18z$zJ{eWS3K"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><next><block type="controls_if" id="yqGVUu4p^1Eb;k$`Sgl4"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="+G)g3l(6#b(N1MPd0?*Q"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="p%JD~XQ~7-sQnK:Zu^_Y"><value name="min"><shadow type="math_number" id="g/Cv-zqe$:^I*J`2XQXl"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="S.T:XMViyJ|^?K/[Yo)c"><field name="NUM">6</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="6^5/N4-F}x[A#s~W49qg"><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="1C=poJ]ium/kSNt2PDx%"><field name="LEDS">`
+        . . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . .
+        `</field></block></statement><next><block type="controls_if" id="d]|N,41pieINJ%ffQ0cC"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="!ithDAFlI(H3:5[Y`Si/"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="+R(u+zcF~lxU?w-]Y/a9"><value name="min"><shadow type="math_number" id="APIlpiXywD]V=w(!v0Y_"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="V(`.%zd#z%)M[I0Klrgd"><field name="NUM">6</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="qH*WGX-%j8[.aS`~Yhk4"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="+GP,37#Cu(0X-Vx0FR0]"><field name="LEDS">`
+        . . . . # 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        # . . . .
+        `</field></block></statement><next><block type="controls_if" id="]fpAOhKfz`2Evet9ayw-"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="2il.?()~c%@P=Ao,|[N}"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="]pQz~AFE8GOJ7^^d71#A"><value name="min"><shadow type="math_number" id="^ru}~t-:h{g{2)jRa4Ws"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="$e5/F5/Pzc%c4dW8B))L"><field name="NUM">6</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="@78UfIL0A@/uVJp3K*}i"><field name="NUM">4</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="}-hiZft1XX+I$heu#A8/"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . #
+        `</field></block></statement><next><block type="controls_if" id="`4)%G|LaH-f!d}EsUD-a"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="#k+hCBh)Qz%#RJ3Io~(j"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="VS3ds}I9Q_LW{GhAV:1/"><value name="min"><shadow type="math_number" id="UPy,uz[7``^rY#QmVMtt"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="=Mha!4NR!XW}zA.J`VA|"><field name="NUM">6</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="lZ$sn(M7a=f$uf8SoUFy"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="wb@$a;QmPM.#{17Ap)MJ"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        # . . . #
+        `</field></block></statement><next><block type="controls_if" id="0HLQZjNk|!SQcwK]jpp)"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="A,.aA*aFiPNaG9BG8QH*"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="zb)QY2avG3~NU6|opSZq"><value name="min"><shadow type="math_number" id="_nphh}455%wRL$e?`^Kp"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="BB{*?pD/wQ;/=7Q$,-,)"><field name="NUM">6</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="0JZTkWHv9}y~*j*8:~*/"><field name="NUM">6</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="8mv+:xX1urjD-W@[]O0v"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        # . . . # 
+        . . . . . 
+        # . . . #
+        `</field></block></statement></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
